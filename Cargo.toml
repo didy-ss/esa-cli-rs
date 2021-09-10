@@ -1,0 +1,20 @@
+[package]
+name = "esa-cli"
+version = "0.8.0"
+authors = ["Didy <didy.kupanhy@suzukishouten.co.jp>"]
+edition = "2018"
+description = "esa-cli is the command-line tool for esa.io."
+repository = "https://github.com/didy-ss/esa-cli-rs"
+readme = "README.md"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = { version = "1.9.0", features = ["attributes"] }
+mime_guess = "2.0.3"
+serde = { version = "1.0.97", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.5"
+structopt = "0.3"
+surf = "2.2.0"
